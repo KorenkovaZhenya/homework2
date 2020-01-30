@@ -4,18 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Вторая часть</title>
+    <title>Опрос</title>
 </head>
 <body>
     <header>
-        <h1>Выберите сериал</h1>
+        <h1>Проголосуйте за понравившийся Вам сериал</h1>
     </header>
     <nav>
         <a href="index.html">Топ 5 сериалов</a>
     </nav>
 
     <section>
-        <h2>пон</h2>
+        <h2>Ваши контакти</h2>
+            <form method="POST" action="https://formspree.io/mdogonrp">
+                <lable>Имя:
+                    <input type="text" placeholder="Имя" required name="text">
+                </lable>
+                <lable>Почта:
+                    <input type="email" placeholder="Почта" required name="email">
+                </lable>
+                    <input type="submit">
+                <br>
+                <lable>Ваш выбор:</lable>  
+                <br>
+                <lable>
+                    <input type="radio" name="Ваш выбор" value="Люцифер">Люцифер
+                </lable>    
+                <br>
+                <lable>
+                    <input type="radio" name="Ваш выбор" value="Леденящие душу приключения Сабрины">Леденящие душу приключения Сабрины
+                </lable>  
+                <br>
+                <lable>
+                    <input type="radio" name="Ваш выбор" value="Ведьмак">Ведьмак
+                </lable>  
+                <br>
+                <lable>
+                    <input type="radio" name="Ваш выбор" value="Академия «Амбрелла»">Академия «Амбрелла»
+                </lable>  
+                <br>
+                <lable>
+                    <input type="radio" name="Элементарно" value="Элементарно">Элементарно
+                </lable>  
+                <br>
+                <lable>
+                    <input type="radio" name="Ваш выбор" value="Ни один из перечисленных вариантов">Ни один из перечисленных вариантов 
+                </lable> 
+             </form>
     </section>
 </body>
 </html>
